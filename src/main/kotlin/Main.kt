@@ -14,7 +14,8 @@ fun main() {
     val goodsItems = inputParser.parse()
 
     val billingSystem = BillingSystem(goodsItems)
+    val bill = billingSystem.generateBill()
 
-    val printer = Printer(billingSystem.generateBill())
+    val printer = Printer(bill)
     printer.displayBill()
 }
