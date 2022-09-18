@@ -36,8 +36,6 @@ internal class BillingSystemTest {
 
         val actualBill = billingSystem.generateBill()
 
-
-
         val expectedBill = Bill(
             itemPrices = mapOf(
                 importedPerfumeBottle to 32.19,
