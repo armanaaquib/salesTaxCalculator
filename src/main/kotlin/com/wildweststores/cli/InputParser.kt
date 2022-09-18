@@ -30,7 +30,7 @@ class InputParser(private val input: List<String>) {
     }
 
     private fun findItemType(description: String): ItemType {
-        val foodProducts = listOf("chocolates")
+        val foodProducts = listOf("chocolate")
         val books = listOf("book")
         val medicalProducts = listOf("pills")
 
